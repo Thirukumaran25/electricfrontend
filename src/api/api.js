@@ -39,7 +39,7 @@ export const registerUser = async (email, password) => {
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'http://localhost:8000/api', // Replace with your backend API URL
+  baseURL: 'https://electricbackend-bd7u.onrender.com/api',
 })
 
 // Add authentication interceptor
